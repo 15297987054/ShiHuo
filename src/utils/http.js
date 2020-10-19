@@ -1,7 +1,7 @@
 import {fetch as fetchPro} from 'whatwg-fetch'
 
 import qs from 'qs'
-
+// const BASE_URL = 'http://m.shihuo.cn'
 const get=(url,data)=>{
     if(data){
         var str = ''
@@ -10,7 +10,8 @@ const get=(url,data)=>{
         }
         url = url + "?" +str.slice(1)
     }
-    var result = fetchPro(url,{
+    console.log(url);
+    var result = fetchPro('/api'+ url,{
         credentials:'include',
         headers:{
             "content-type":"application/json"
@@ -21,7 +22,7 @@ const get=(url,data)=>{
 }
 
 const post=(url,data)=>{
-   var result =  fetchPro(url,{
+   var result =  fetchPro('/api'+ url,{
         method:'post',
         headers:{
             "content-type":"application/x-www-form-urlencoded"

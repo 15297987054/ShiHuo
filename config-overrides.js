@@ -15,7 +15,9 @@ module.exports = override(
         '@pages': path.resolve(__dirname, './src/pages'),
         '@utils': path.resolve(__dirname, './src/utils'),
         '@store': path.resolve(__dirname, './src/store'),
-        '@router': path.resolve(__dirname, './src/router')
+        '@router': path.resolve(__dirname, './src/router'),
+        '@api':path.resolve(__dirname,'./src/api'),
+        '@mockData':path.resolve(__dirname,'./src/mockData')
 
     })
 );
