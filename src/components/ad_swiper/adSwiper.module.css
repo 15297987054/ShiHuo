@@ -10,3 +10,57 @@
     height:.75rem;
     border-radius:4px;
 }
+.right{
+    width:3.91rem;
+    height: 100%;
+    margin-left:.2rem;
+}
+.title{
+    font-size: 12px;
+    color:white;
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    margin-top:2px;
+}
+.now{
+    color:#ff4338;
+}
+.count{
+    padding:.02rem .1rem;
+    border-radius: .08rem;
+    text-align: center;
+    margin: 0 .1rem;
+    color:white;
+    background:#ff4338;
+}
+.old{
+    color:#ccc;
+    text-decoration: line-through;
+}
+.open{
+    width:1rem;
+    height: .63rem;
+    background-color: #ff4338;
+    line-height: .63rem;
+    text-align: center;
+    color:white;
+    position: absolute;
+    border-radius: .1rem;
+    right:.4rem;
+    top:.13rem;
+    z-index:10;
+}
+.open:active{
+    opacity: 0.5;
+}
+.cha{
+    width:.5rem;
+    height:.5rem;
+    color:white;
+    position: absolute;
+    top:0;
+    right:0;
+    z-index:10;
+}

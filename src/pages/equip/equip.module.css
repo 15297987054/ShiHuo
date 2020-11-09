@@ -1,0 +1,65 @@
+.top{
+    display: flex;
+    justify-content: space-between;
+    padding:10px;
+    border-bottom: 2px solid #ccc;
+    align-items: center;
+    /* position: fixed;
+    width:100%;
+    top:0; */
+    background: white;
+}
+.top_right{
+    color:#ff4338;
+}
+.top_right:active{
+    opacity: 0.5;
+}
+.item{
+    width:100%;
+    padding:10px;
+    background: yellow;
+    display: flex;
+}
+.item_img{
+    width:2.13rem !important;
+    height: 2.13rem !important;
+    margin-right: 10px;
+}
+.item_right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 3.4rem;
+}
+.item_right_title{
+    color:#333;
+    font-size:14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.item_right_intro{
+    color:#666;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#icon_yuanX:active{
+    opacity: 0.5;
+}
+.item_right_price{
+    color:#ff4338;
+    font-size:12px;
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+}
+.null{
+    width: 100%;
+    text-align: center;
+    margin-top:200px;
+}
+.null>span{
+    color:#2440b3;
+}

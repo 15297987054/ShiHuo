@@ -1,0 +1,9 @@
+.backToTop{
+    padding:5px;
+    position: absolute;
+    bottom:1.5rem;
+    right:.4rem;
+    color:#666;
+    font-size:40px;
+    opacity: 0.7;
+}

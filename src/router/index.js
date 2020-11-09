@@ -47,8 +47,8 @@ export const layoutRoutes = [
     {   
         key:'/equip',
         path:'/equip',
-        name:'装备',
-        icon:'iconxie',
+        name:'购物车',
+        icon:'icon-gouwuche',
         component:Equip,
         exact:true,
         meta:{

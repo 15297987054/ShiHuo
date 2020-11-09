@@ -1,0 +1,26 @@
+.box{
+    position: absolute;
+    top:-100px;
+    left:0;
+    bottom:0;
+    right: 0;
+    margin:auto;
+    width:6.7rem;
+    height: 5rem;
+    background: #ccc;
+    opacity: 0.5;
+    padding:.2rem;
+    background-image: url('../../static/login.jpg');
+    background-size: 6.7rem 5rem;
+    box-shadow: 0 0 5rem 3rem burlywood;
+    border-radius: .2rem;
+}
+.divider{
+    margin:.4rem 0;
+}
+.input{
+    border-radius: .2rem;
+}
+.btn{
+    margin-top:.4rem;
+}

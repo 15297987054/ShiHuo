@@ -1,9 +1,9 @@
 import {createStore,combineReducers,applyMiddleware} from 'redux'
 import reduxThunk from 'redux-thunk'
-import user from './reducer/user'
+import add from './reducer/add'
 
 const reducer = combineReducers({
-    user
+    add
 })
 
 const store = createStore(reducer,applyMiddleware(reduxThunk))

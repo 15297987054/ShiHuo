@@ -23,6 +23,7 @@ export const TabbarWrapper = styled.div`
             align-items:center;
             flex-direction:column;
             font-size:.24rem;
+            text-align:center;
             i{
                 display:block;
                 font-size:24px;

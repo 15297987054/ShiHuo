@@ -1,0 +1,44 @@
+.header{
+    width:100%;
+    height:.92rem;
+    background-color: #f7f7f7;
+    padding:.15rem .2rem;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color:#666;
+}
+.input{
+    width:6.17rem;
+    height: .62rem;
+    border-radius:.1rem;
+    margin-right: .3rem;
+    background:#eaeaea;
+    border:none;
+    font-size: 12px;
+    text-indent: 40px;
+}
+.history{
+    background-color: white;
+    height: 100%;
+    padding:.2rem;
+}
+.hot_text{
+    color:#999;
+    font-size: 14px;
+}
+.hot{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:.2rem;
+}
+.hot_item{
+    border:1px solid #ccc;
+    padding:.1rem;
+    color:#444;
+    margin:0 .2rem .2rem 0;
+}
+.hot_item:active{
+    opacity: 0.5;
+}
